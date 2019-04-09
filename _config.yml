@@ -19,8 +19,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   A blog that documents my transition from building web front-ends in Angular to Microsoft's
   new Blazor framework. As Blazor is still very early in its life-cycle, there's still not
   much documentation on it. Hopefully my stuggle can help other developers with the transition.
-baseurl: "/blazor-blog" # the subpath of your site, e.g. /blog
-url: "http://atuw.net" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ewisted
 github_username:  ewisted
 
