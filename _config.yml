@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   new Blazor framework. As Blazor is still very early in its life-cycle, there's still not
   much documentation on it. Hopefully my stuggle can help other developers with the transition.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ewisted.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ewisted
 github_username:  ewisted
 
