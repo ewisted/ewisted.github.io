@@ -1,43 +1,41 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: From Angular to Blazor - Building a Front-end Without Javascript
+title: "From Angular to Blazor: Building a Front-end Without Javascript"
 email: ew@atuw.org
-description: >- # this means to ignore newlines until "baseurl:"
+description: "A blog about Blazor"
+baseurl: ""
+url: "http://ericwisted.com/"
+title_description: >- # this means to ignore newlines until "e_image:"
   A blog that documents my transition from building web front-ends in Angular to Microsoft's
   new Blazor framework. As Blazor is still very early in its life-cycle, there's still not
   much documentation on it. Hopefully my stuggle can help other developers with the transition.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ewisted.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
+google_analytics: "UA-138076088-1"
+disqus_account: ericwisted
+github_repository: https://github.com/ewisted/ewisted.github.io
+addthis_id: ra-5cadadf6d320e63a
+post_limit: 5
+
+# Social usernames/URLs
 twitter_username: ewisted
 github_username:  ewisted
+instagram_username: 
+reddit_username: 
+linkedin_link: https://www.linkedin.com/in/ericwisted/
+google_plus_link:
+stackoverflow_link: https://stackoverflow.com/users/11297421/atuw
+xing_link:
+facebook_link:
+
+# Footer
+footer_left: #"Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
+footer_right: #"&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
 markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: pretty
+exclude: [vendor]
