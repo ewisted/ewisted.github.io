@@ -4,7 +4,7 @@ title:  "Creating My First Components and Establishing Routing Between Them"
 date:   2019-04-10 01:02:22 -0500
 categories: blazor
 ---
-Let me start this off by saying I'm not the one who initially set up Blazor in our Synthbot project, since it's stuctured as an enterprise application that runs on Azure, and that's not the best place to start for someone who's still relatively new to web apps. So one of the other devs got Microsoft's Blazor example running within Synthbot for me to run wild with. With that in mind, I'll be building off the example app as I go in order to have a template to follow while getting started. [Here's a link][blazor-getting-started] to build the starter example from Microsoft's ever-so-helpful docs on Blazor.
+Let me start this off by saying that I'll be building off the example app so I have a template to follow as I go. [Here's a link][blazor-getting-started] to build the starter example from Microsoft's ever-so-helpful docs on Blazor.
 
 With that out of the way, lets get to the content of this post.
 
